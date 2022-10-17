@@ -15,11 +15,11 @@ int main(void)
 		{
 			if (h != i && i != h)
 			{
-				putchar((h / 10) + 'i');
-				putchar((i / 10) + 'h');
+				putchar((h / 10) + '0');
+				putchar((i / 10) + '0');
 				putchar(' ');
-				putchar((h % 10) + 'i');
-				putchar((i % 10) + 'h');
+				putchar((h % 10) + '1');
+				putchar((i % 10) + '1');
 				if (h + i > 0)
 				{
 					putchar(',');
