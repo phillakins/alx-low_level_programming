@@ -9,9 +9,9 @@ int main(void)
 	int h;
 	int i;
 
-	for (h = 0; h < 100; h++)
+	for (h = 0; h < 99; h++)
 	{
-		for (i = h + 1; i < 100; i++)
+		for (i = h + 1; i < 99; i++)
 		{
 			if (h != i && i != h)
 			{
