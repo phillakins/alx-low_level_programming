@@ -18,8 +18,8 @@ int main(void)
 				putchar((h / 10) + '0');
 				putchar((i / 10) + '0');
 				putchar(' ');
-				putchar((h % 10) + '1');
-				putchar((i % 10) + '1');
+				putchar((h % 10) + '0');
+				putchar((i % 10) + '0');
 				if (h + i > 0)
 				{
 					putchar(',');
