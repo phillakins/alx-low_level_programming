@@ -3,11 +3,12 @@
 /**
  * _islower - Shows 1 for lowercase character else show 0
  *
+ * @c: char type letter
+ *
  * Return: 1 for lowercase character. 0 for the rest.
  */
-int _islower(int c);
+int _islower(int c)
 {
-	int c;
 
 	if (c >= 'a' && c <= 'z')
 	{
