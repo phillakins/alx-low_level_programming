@@ -1,0 +1,19 @@
+#include "main.h"
+#include <stdio.h>
+
+/**
+ * print_array - prints n elements of an array of integers.
+ * @a: char type array.
+ * @n: input n elements
+ * Return: no return.
+ */
+void print_array(int *a, int n)
+{
+	int i = 0;
+
+	for (i = 0; i < n; i++)
+	{
+		printf("%d\n", *(a + i));
+	}
+	printf("\n");
+}
